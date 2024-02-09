@@ -1,45 +1,79 @@
+* {
+    background-color: #33332d;
+    color: white;
+}
+
+html {
+    padding: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h1, h2 { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 h1 {
     font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 5px;
     margin-bottom: 50px;
     margin-top: 0;
+    letter-spacing: 5px;
 }
 
-ul > li, .link {
-    height: fit-content;
-    display: block;
-    width: fit-content;
-    border: 3px solid white;
-}
-
-ul > li {
-    margin: 30px 0;
-}
-
-.link {
-    font-size: 25px;
-    font-weight: 300;
-    padding: 15px;
+h2 {
     letter-spacing: 3px;
-    margin-top: -20px;
-    margin-right: -30px;
+    width: fit-content;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
 }
 
-/* a {
-    background-color: inherit;
-    color: inherit;
-} */
-
-.link:hover {
-    background-color: white;
-    color: #33332d;
+.image-container {
+    border: 10px solid white;
+    width: fit-content;
+    border-radius: 3px;
 }
 
-ul li a {
-    text-decoration: none;
+img {
+    margin: -20px -20px -5px 0;
+    border-radius: inherit;
 }
 
-ul {
-    padding-left: 0;
+ul, ol {
+    width: 600px;
+    margin-left: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.homeList {
+    ul > li, .link {
+        height: fit-content;
+        display: block;
+        width: fit-content;
+        border: 3px solid white;
+    }
+    
+    ul > li {
+        margin: 30px 0;
+    }
+    
+    .link {
+        font-size: 25px;
+        font-weight: 300;
+        padding: 15px;
+        letter-spacing: 3px;
+        margin-top: -20px;
+        margin-right: -30px;
+    }
+    
+    .link:hover {
+        background-color: white;
+        color: #33332d;
+    }
+    
+    ul li a {
+        text-decoration: none;
+    }
 }
